@@ -2,7 +2,7 @@ TARGET_GROUP_NAME = "DUKE 2024"
 
 # import groupme token
 tokenfile = open("token", "r")
-TOKEN = tokenfile.readline()
+TOKEN = tokenfile.readline().replace("\n", "")
 tokenfile.close()
 
 
