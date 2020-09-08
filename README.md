@@ -11,4 +11,5 @@ Besides the invitation link and the inferred group title, the table also include
 3. Follow the [tutorial on Groupy's website](https://groupy.readthedocs.io/en/latest/pages/installation.html) to obtain your Access Token. Once you have it, open a new file within the folder of your repository called `token` and paste the token in there. And you are ready to go!
 
 # Use
-To run, simply navigate to the directory where you want to save *links.tsv* and run the python script with `python /path/to/invitation-link-digger.py`. Be sure to run it with Python 3.5+ 
+1. Edit the *TARGET_GROUP_NAME* first line of *invitation-link-digger.py* to match the name of the group the chat history of which  you want to search through. *TARGET_GROUP_NAME* only has to be a substring unique to the title of your target group, so you don't have to copy the emojis verbatim. 
+2. To run, simply navigate to the directory where you want to save *links.tsv* and run the python script with `python /path/to/invitation-link-digger.py`. Be sure to run it with Python 3.5+ 
