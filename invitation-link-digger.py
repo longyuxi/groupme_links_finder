@@ -63,7 +63,7 @@ def handle_msg_for_group_link(message):
 		message (message): the message object to be handled
 	"""
 
-	gm_link_matcher = re.compile(r'(https:\/\/(?:app.)groupme.com\/join_group\/\d{8}\/\w{8})')
+	gm_link_matcher = re.compile(r'(https:\/\/(?:app.)?groupme.com\/join_group\/\d{8}\/\w{8})')
 	gm_invitation_matcher_1 = re.compile(r'(You\'re invited to my new group)')
 	gm_invitation_matcher_2 = re.compile(r'(on GroupMe)')
 	if message.text is None:
