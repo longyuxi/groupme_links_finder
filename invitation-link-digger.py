@@ -136,3 +136,5 @@ def find_all_invitation_links(group_name):
 
 if __name__ == "__main__":
 	find_all_invitation_links(TARGET_GROUP_NAME)
+	import xlsx_handler
+	xlsx_handler.main()
