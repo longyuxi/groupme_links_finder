@@ -7,7 +7,7 @@ Besides the invitation link and the inferred group title, the table also include
 # Installation
 
 1. Clone this repository. 
-2. Install Groupy through `pip install GroupyAPI`.
+2. Install Groupy through `pip install GroupyAPI` and xlswriter through `pip install xlsxwriter`.
 3. Follow the [tutorial on Groupy's website](https://groupy.readthedocs.io/en/latest/pages/installation.html) to obtain your Access Token. Once you have it, open a new file within the folder of your repository called `token` and paste the token in there. And you are ready to go!
 
 # Use
